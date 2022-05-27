@@ -44,6 +44,7 @@ export const light = {
     textFieldBorder: GRAY4,
     textFieldActivatedBorder: GRAY5,
     tableBackground: GRAY1,
+    codeLanguageText: "#da615d",
   },
 }
 
@@ -82,5 +83,6 @@ export const dark = {
     textFieldBorder: GRAY7,
     textFieldActivatedBorder: GRAY6,
     tableBackground: "#292e33",
+    codeLanguageText: GRAY0,
   },
 }

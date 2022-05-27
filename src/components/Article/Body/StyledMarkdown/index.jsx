@@ -126,7 +126,7 @@ const StyledMarkdown = styled.div`
   }
 
   pre[class*="language-"] {
-    background-color: #1e1e1e;
+    background-color: #f7f6f3;
   }
 
   & h2 > code.language-text,
@@ -226,6 +226,10 @@ const StyledMarkdown = styled.div`
   & a:hover {
     background-color: ${props => props.theme.colors.text};
     color: ${props => props.theme.colors.hoveredLinkText};
+  }
+
+  & p > code.language-text {
+    color : ${props => props.theme.colors.codeLanguageText};
   }
 `
 
