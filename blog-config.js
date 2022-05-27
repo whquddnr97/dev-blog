@@ -5,7 +5,7 @@ module.exports = {
   siteUrl: "https://saki-chan.dev/",
   links: {
     github: "https://github.com/",
-    email: "admin@saki-chan.dev"
+    email: "mailto:admin@saki-chan.dev"
   },
   utterances: {
     repo: "whquddnr97/dev-blog",
