@@ -54,7 +54,7 @@ const Date = styled.span`
 `
 
 const Series = ({ pathContext, data }) => {
-  const seriesName = pathContext.series
+  const seriesName = pathContext?.series
   const posts = data.posts.nodes
 
   return (
