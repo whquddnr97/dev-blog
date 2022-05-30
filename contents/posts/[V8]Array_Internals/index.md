@@ -6,7 +6,7 @@ update: 2021-05-30
 tags:
   - V8
 ---
-# 1. Elements
+## 1. Elements
 
 ***JavaScript***의 객체는 `key-value`로 구성된 `property`의 집합이다.    
 특정 `property`에 접근하기 위해 사용하는 `식별자`는 `property key`또는 `property name`으로 불리며, 모든 문자열이 올 수 있다.  
@@ -16,7 +16,7 @@ tags:
 `배열`에 원소를 추가하면 각 원소는 0부터 시작하는 식별자를 가지게 되는데, `V8`은 이러한 것들을 따로 모아서 저장한다.  
 또한, 내부적으로 `elements`라는 특별한 이름을 부여한다.  
 
-# 2. Elements Kinds
+## 2. Elements Kinds
 
 `V8`은 `reduce`, `map`, `forEach`과 같은 연산을 최적화 하기 위해 배열에 어떤 종류의`elements`가 들어있는지 확인한다.  
 
