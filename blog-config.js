@@ -1,6 +1,6 @@
 module.exports = {
   title: "saki-chan.dev",
-  description: "dev blog",
+  description: "結婚しよう, さきちゃん",
   author: "saki-chan",
   siteUrl: "https://saki-chan.dev/",
   links: {
