@@ -5,7 +5,6 @@ date: 2021-05-30
 update: 2021-05-30
 tags:
   - V8
-series: "V8 Internals"
 ---
 # 1. Elements
 
