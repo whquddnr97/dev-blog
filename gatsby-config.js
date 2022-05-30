@@ -7,11 +7,19 @@ module.exports = {
     title,
     description,
     author,
-    siteUrl,
+    siteUrl : 'https://saki-chan.dev/',
   },
   plugins: [
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: 'https://saki-chan.dev/',
+        sitemap: 'https://saki-chan.dev/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
+
     {
       resolve: `gatsby-plugin-react-redux`,
       options: {
@@ -122,7 +130,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-resolve-src`,
-    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
