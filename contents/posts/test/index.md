@@ -18,3 +18,18 @@ let answer = test.split('')
     .sort((a, b) => a - b)
     .filter((v) => v > 2);
 ```
+---
+
+[title](https://www.example.com)
+
+---
+I need to highlight these ==very important words==.
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+|a|b|
+|---|---|
+|ab|cd|
