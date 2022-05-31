@@ -101,10 +101,10 @@ const arr3 = ['a', 'b', 'c'] // PACKED_ELEMENTS
 
 - `SMI` : Small Integers의 약자로, 32비트의 부호있는 정수값
 - `DOUBLE` : SMI로 표현할 수 없는 실수
-- `NONE` : SMI와 DOUBLE로 표현할 수 없는 일반적인 원소
+- `ELEMENTS` : SMI와 DOUBLE로 표현할 수 없는 일반적인 원소
 
-`SMI`는 `DOUBLE`의 부분집합이고, `DOUBLE`은 마찬가지로 `NONE`의 부분집합이다.  
-따라서 `SMI` -> `DOUBLE` -> `NONE` 으로 이동하면서 점점 더 일반화된 형태를 띄게된다.  
+`SMI`는 `DOUBLE`의 부분집합이고, `DOUBLE`은 마찬가지로 `ELEMENTS`의 부분집합이다.  
+따라서 `SMI` -> `DOUBLE` -> `ELEMENTS`로 이동하면서 점점 더 일반화된 형태를 띄게된다.  
 
 ## 3. Elements Kinds Transitions
 ---
